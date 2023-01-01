@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title-bar">
+      <span id="documentName" class="document-name">codepanion.txt</span>
+
+      <div class="menu-section">
+        <button id="openDocumentBtn">
+          <div class="material-icons">launch</div>
+        </button>
+        <button id="createDocumentBtn">
+          <div class="material-icons">note_add</div>
+        </button>
+        </button>
+      </div>
+    </div>
+    <main>
+      <textarea id="fileTextArea" disabled></textarea>
+    </main>
+  </body>
+</html>

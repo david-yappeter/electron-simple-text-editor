@@ -1,0 +1,15 @@
+{
+  "name": "simple-text-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "electron-builder",
+    "start": "NODE_ENV=development electron ."
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0",
+    "electron-reloader": "^1.2.3"
+  }
+}
